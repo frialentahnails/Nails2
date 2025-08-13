@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frialentahs Nails</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>💅 Frialentahs Nails</h1>
+        <p>Where your nails meet paradise</p>
+        <a href="tel:6787248587" class="phone-link">📞 Call Now: 678-724-8587</a>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-buttons">
+            <button>Junks Nails</button>
+            <button>Detailed Nails</button>
+            <button>Plain</button>
+            <button>Ombré</button>
+            <button>Regular French</button>
+        </div>
+    </section>
+
+    <section class="booking">
+        <h2>Book Your Appointment</h2>
+        <form action="https://formspree.io/f/yourformid" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="">Select</option>
+                <option>Junks Nails</option>
+                <option>Detailed Nails</option>
+                <option>Plain</option>
+                <option>Ombré</option>
+                <option>Regular French</option>
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">💖 Book Now</button>
+        </form>
+    </section>
+
+    <section class="payment">
+        <h2>Payment via Cash App</h2>
+        <p>Send to <strong>$heather5366</strong></p>
+        <img src="assets/cashapp-qr.jpeg" alt="Cash App QR Code" class="qr-code">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Frialentahs Nails. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
